@@ -1,4 +1,4 @@
-# Activities Assignment 
+# Activities Assignment | Android Reddit Reader - Step 1
 
 ## Contexto
 
@@ -22,7 +22,3 @@ El presente curso ha sido diseñado por [Diego Mercado](https://github.com/merca
 * Debe compilar. De lo contrario no será considerada como una entrega valida
 * Debe desarrollarse usando Android Studio 2.1.3 (o cualquier versión superior del canal estable)
 * Conservar Minimum SDK: API Level 15 y Target SDK: API Level 23 
-=======
-# ActivitiesAssignment-RamiroBarraco
-Android Assigment
-
