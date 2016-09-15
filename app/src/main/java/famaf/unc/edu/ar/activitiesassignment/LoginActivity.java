@@ -3,6 +3,8 @@ package famaf.unc.edu.ar.activitiesassignment;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.app.Activity;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -65,6 +67,7 @@ public class LoginActivity extends AppCompatActivity  {
 
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
+
     }
 
     /**
@@ -114,6 +117,9 @@ public class LoginActivity extends AppCompatActivity  {
             // Show a progress spinner, and kick off a background task to
             // perform the user login attempt.
             showProgress(true);
+            Intent returnIntent = new Intent();
+            returnIntent.putExtra("email",email);
+            setResult(Activity.RESULT_OK, returnIntent);
             mAuthTask = new UserLoginTask(email, password);
             mAuthTask.execute((Void) null);
         }
@@ -204,12 +210,15 @@ public class LoginActivity extends AppCompatActivity  {
             return true;
         }
 
+
+
         @Override
         protected void onPostExecute(final Boolean success) {
             mAuthTask = null;
             showProgress(false);
 
             if (success) {
+
                 finish();
             } else {
                 mPasswordView.setError(getString(R.string.error_incorrect_password));
