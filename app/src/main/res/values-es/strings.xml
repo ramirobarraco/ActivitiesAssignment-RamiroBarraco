@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lector Reddit</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contrasena (opcional)</string>
+    <string name="action_sign_in">Entrar o registrarse</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="action_sign_out">Salir</string>
+    <string name="error_invalid_email">Este email no es valido</string>
+    <string name="error_invalid_password">Esta contraseña no es valida</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="permission_rationale">"Permisos de contactos son requerido para proveer autocompletado de email."
+    </string>
+
+    <string name="title_activity_news">"Lector de Reddit"
+    </string>
+
+
+</resources>
