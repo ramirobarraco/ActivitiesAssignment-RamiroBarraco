@@ -1,23 +1,20 @@
-package famaf.unc.edu.ar.activitiesassignment;
+package ar.edu.unc.famaf.redditreader;
 
-
-import android.media.Image;
 
 public class PostModel {
 
     private String pTitle;
-    private String pContent;
     private String pSubreddit;
     private String pComments;
     private String pPostDate;
+    private String pThumbnail;
 
-    public PostModel(String pTitle, String pContent, String pSubreddit, String pComments, String pPostDate, String pImage) {
+    public PostModel(String pTitle, String pSubreddit, String pComments, String pPostDate, String pThumbnail) {
         this.pTitle = pTitle;
-        this.pContent = pContent;
         this.pSubreddit = pSubreddit;
         this.pComments = pComments;
         this.pPostDate = pPostDate;
-        this.pImage = pImage;
+        this.pThumbnail = pThumbnail;
     }
 
     public String getpTitle() {
@@ -26,16 +23,6 @@ public class PostModel {
 
     public void setpTitle(String pTitle) {
         this.pTitle = pTitle;
-    }
-
-    private String pImage;
-
-    public String getpImage() {
-        return pImage;
-    }
-
-    public void setpImage(String pImage) {
-        this.pImage = pImage;
     }
 
     public String getpPostDate() {
@@ -62,11 +49,11 @@ public class PostModel {
         this.pSubreddit = pSubreddit;
     }
 
-    public String getpContent() {
-        return pContent;
+    public String getpThumbnail() {
+        return pThumbnail;
     }
 
-    public void setpContent(String pContent) {
-        this.pContent = pContent;
+    public void setmThumbnail(String mThumbnail) {
+        this.pThumbnail = mThumbnail;
     }
 }

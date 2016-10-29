@@ -1,4 +1,4 @@
-package famaf.unc.edu.ar.activitiesassignment;
+package ar.edu.unc.famaf.redditreader;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 import java.util.List;
+
+import famaf.unc.edu.ar.redditreader.R;
 
 /**
  * A placeholder fragment containing a simple view.

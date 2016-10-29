@@ -17,7 +17,7 @@
 
     <string name="login_message">User %s logged in</string>
 
-    <string name="content">%s</string>
+    <string name="title">%s</string>
     <string name="hours">"%s ago"</string>
     <string name="comments">"%d comments"</string>
     <string name="subreddit">"%s"</string>

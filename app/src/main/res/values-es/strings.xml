@@ -13,8 +13,12 @@
     <string name="error_field_required">Este campo es requerido</string>
     <string name="permission_rationale">"Permisos de contactos son requerido para proveer autocompletado de email."
     </string>
+    <string name="login_message">Usuario %s se ha conectado</string>
+
+    <string name="title">%s</string>
     <string name="hours">Hace %s</string>
     <string name="comments">% comentarios</string>
+    <string name="subreddit">"%s"</string>
 
     <string name="title_activity_news">"Lector de Reddit"
     </string>
